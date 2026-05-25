@@ -10,7 +10,7 @@ function App() {
       {/* NAVBAR */}
       <Navbar />
 
-      {/* HEADER */}
+      {/* HEADER Codes */}
       <Header message="Frontend Web Developer focused on modern design, performance, and user experience." />
 
       <Profile
