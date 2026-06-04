@@ -1,18 +1,35 @@
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="contact" className="footer">
       <p className="footer-name">
-        © 2026 Bibi Mariam Abdul Shukoor <br />
+        © {new Date().getFullYear()} Bibi Mariam Abdul Shukoor <br />
         Front End Web Developer
       </p>
 
       <div className="social-links">
-        <a href="#">GitHub</a>
+        <a
+          href="https://github.com/Mariamkakar"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
 
-        <a href="#">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/mariam-abdul-shukoor-697379286"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
 
-        <a href="#">Twitter</a>
-        <a href="#">Freelancing</a>
+        <a
+          href="https://www.freelancer.com/u/mariamk029"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Freelancing
+        </a>
       </div>
     </footer>
   );

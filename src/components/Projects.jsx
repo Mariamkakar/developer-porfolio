@@ -1,12 +1,13 @@
-import projects from "../data/projects";
+import projects from "../data/Projects";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
   return (
-    <section className="projects-section">
+    <section id="projects" className="projects-section">
       <h2>
-        My<span>Projects</span>
+        My <span>Projects</span>
       </h2>
+
       <div className="projects-container">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />

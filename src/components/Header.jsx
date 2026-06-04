@@ -1,14 +1,14 @@
-function Header() {
+function Header({ message }) {
   return (
-    <header className="header">
+    <header id="home" className="header">
       <div className="hero-text">
         <h1>Bibi Mariam Abdul Shukoor</h1>
 
-        <p>Welcome to my Developer Portfolio</p>
+        <p>{message}</p>
 
         <div className="line"></div>
 
-        <h3>🚀 Codeing. Create. Inspire.</h3>
+        <h3>Building Modern and Responsive Web Applications</h3>
       </div>
     </header>
   );

@@ -5,13 +5,13 @@ import image3 from "../assets/image3.jpg";
 const projects = [
   {
     id: 1,
-    name: " Todo app",
+    name: " Learning",
 
     image: image1,
 
-    description: "The Todo app built using HTML and CSS with responsive design",
+    description: "The learning built using HTML and CSS with responsive design",
 
-    link: "https://github.com/",
+    link: "https://github.com/Mariamkakar/01.project.git/",
 
     techStack: ["HTML", "CSS"],
 
@@ -20,15 +20,15 @@ const projects = [
 
   {
     id: 2,
-    name: "Course Website",
+    name: "Clock App",
 
     image: image2,
 
     description: "A course website built using JavaScript, HTML, CSS.",
 
-    link: "https://github.com/",
+    link: "https://github.com/Mariamkakar/clock-app.git/",
 
-    techStack: ["HTML", "JavaScript", "CSS"],
+    techStack: ["HTML", "CSS"],
 
     featured: false,
   },
@@ -39,9 +39,9 @@ const projects = [
 
     image: image3,
 
-    description: "A weather application built using React and API integration.",
+    description: "The todo application built using React and API integration.",
 
-    link: "https://github.com/",
+    link: "https://github.com/Mariamkakar/todo.git/",
 
     techStack: ["React", "CSS", "Responsive Design"],
 

@@ -1,54 +1,46 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Profile from "./components/Profile";
+import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Profile from "./components/Profile";
-
+import ContactForm from "./components/ContactForm";
+import Skills from "./components/Skills";
+import FeedbackWall from "./components/FeedbackWall";
+import ProjectUpdates from "./components/ProjectUpdates";
 function App() {
   return (
     <>
       {/* NAVBAR */}
       <Navbar />
 
-      {/* HEADER Codes */}
-      <Header message="Frontend Web Developer focused on modern design, performance, and user experience." />
+      {/* HEADER */}
+      <Header message="Front End Web Developer focused on modern design, performance, and user experience." />
 
+      {/* PROFILE */}
       <Profile
         name="Bibi Mariam Abdul Shukoor"
         title="Front-End Web Developer"
         bio="I’m a frontend web developer focused on creating clean, responsive, and modern websites that help businesses build trust and improve user experience."
       />
 
-      {/* ABOUT SECTION */}
-      <section className="about-section">
-        <div className="about-text">
-          <h2>
-            About <span>Me</span>
-          </h2>
+      {/* ABOUT */}
+      <About />
 
-          <p>
-            I am a passionate front-end developer who loves building responsive
-            and user-friendly web applications.
-          </p>
-
-          <button className="about-btn">Show More</button>
-        </div>
-
-        <div className="hobbies-card">
-          <h3>Hobbies</h3>
-
-          <ul>
-            <li>💻 Coding</li>
-            <li>💻 Programming</li>
-            <li>🎨 Design</li>
-            <li>📚 Reading</li>
-            <li>🎮 Gaming</li>
-          </ul>
-        </div>
-      </section>
+      {/* skills */}
+      <Skills />
 
       {/* PROJECTS */}
       <Projects />
+
+      {/* ContactForm */}
+      <ContactForm />
+
+      {/* FeedbackWall */}
+      <FeedbackWall />
+
+      {/* ProjectUpdate */}
+      <ProjectUpdates />
 
       {/* FOOTER */}
       <Footer />
