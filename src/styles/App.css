@@ -581,7 +581,7 @@ html {
 /* CARD */
 
 .project-card {
-  background: #f4efef;
+  background: #eff1f4;
   border-radius: 18px;
   overflow: hidden;
   transition: 0.4s ease;
@@ -661,7 +661,7 @@ html {
 .project-card a {
   display: inline-block;
 
-  margin: 0 20px 25px;
+  margin-top: 14px;
 
   text-decoration: none;
 
@@ -1157,13 +1157,7 @@ body.dark .success-toast {
 body.dark .error {
   color: #f87171;
 }
-sssssSSS
-
-/* =========================
-   SKILLS SECTION
-=/* =========================
-   SKILLS SECTION
-========================= */
+/* SKILLS SECTION */
 
 .skills-section {
   padding: 60px 10%;
@@ -1209,8 +1203,7 @@ sssssSSS
   border-radius: 20px;
   transition: width 1s ease-in-out;
 }
-
-/* رنگ‌های مختلف برای هر مهارت */
+/* THIS IS MY SKIL SECTION */
 
 .skill-card:nth-child(2) .progress {
   background: #1b0894;
@@ -1356,9 +1349,7 @@ feeeedddd .feedback-section {
 
   margin: 5px 0 10px 0;
 }
-
-uuuuuupppdedd 
-
+U 
 /* PROJECT UPDATES */
 
 .updates-section {

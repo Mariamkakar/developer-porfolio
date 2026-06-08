@@ -14,8 +14,6 @@ const projects = [
     link: "https://github.com/Mariamkakar/01.project.git/",
 
     techStack: ["HTML", "CSS"],
-
-    featured: true,
   },
 
   {
@@ -29,8 +27,6 @@ const projects = [
     link: "https://github.com/Mariamkakar/clock-app.git/",
 
     techStack: ["HTML", "CSS"],
-
-    featured: false,
   },
 
   {
@@ -44,8 +40,6 @@ const projects = [
     link: "https://github.com/Mariamkakar/todo.git/",
 
     techStack: ["React", "CSS", "Responsive Design"],
-
-    featured: true,
   },
 ];
 

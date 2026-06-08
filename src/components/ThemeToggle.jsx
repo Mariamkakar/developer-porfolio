@@ -4,7 +4,12 @@ function ThemeToggle() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
   useEffect(() => {
-    document.body.className = theme;
+    if (theme === "dark") {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+
     localStorage.setItem("theme", theme);
   }, [theme]);
 
@@ -13,8 +18,8 @@ function ThemeToggle() {
   };
 
   return (
-    <button className="theme-btn" onClick={toggleTheme}>
-      {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+    <button onClick={toggleTheme} className="theme-btn">
+      {theme === "light" ? "🌙 Dark" : "☀️ Light"}
     </button>
   );
 }
